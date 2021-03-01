@@ -5,7 +5,7 @@ using Banking.Resources;
 
 namespace Banking.Services.CalculatorService
 {
-    public class CalculatorValidation : ICalculatorValidation
+    internal class CalculatorValidation : ICalculatorValidation
     {
         public ICollection<IErrorResult> Validate(Loan loanDto)
         {

@@ -4,7 +4,7 @@ using Banking.Entites;
 using Banking.Resources;
 namespace Banking.Services.CalculatorService
 {
-    public class Calculator : ICalculator
+    internal class Calculator : ICalculator
     {
         private const int Months = 12;
         private readonly ICalculatorValidation _validation;

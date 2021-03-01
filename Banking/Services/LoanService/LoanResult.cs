@@ -3,7 +3,7 @@ using Banking.Resources;
 
 namespace Banking.Services.LoanService
 {
-    public class LoanResult : ILoanResult
+    internal class LoanResult : ILoanResult
     {
         public LoanResult(ICollection<IErrorResult> errorResults)
         {

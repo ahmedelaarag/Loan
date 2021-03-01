@@ -4,7 +4,7 @@ using Banking.Resources;
 
 namespace Banking.Services.CalculatorService
 {
-    public class CalculationResult : ICalculationResult
+    internal class CalculationResult : ICalculationResult
     {
         public CalculationResult(ICollection<IErrorResult> errorResults)
             : this(decimal.Zero, decimal.Zero, decimal.Zero)

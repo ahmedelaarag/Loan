@@ -2,7 +2,7 @@
 
 namespace Banking.Resources
 {
-    public class ErrorResult : IErrorResult
+    internal class ErrorResult : IErrorResult
     {
         public ErrorResult(Guid id, string message)
         {

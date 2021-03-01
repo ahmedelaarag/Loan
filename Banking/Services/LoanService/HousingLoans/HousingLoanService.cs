@@ -6,7 +6,7 @@ using Banking.Resources;
 
 namespace Banking.Services.LoanService
 {
-    public class HousingLoanService : ILoanService
+    internal class HousingLoanService : ILoanService
     {
         private readonly ICalculator _calculator;
         public HousingLoanService(ICalculator calculator)
